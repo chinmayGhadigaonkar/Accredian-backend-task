@@ -9,6 +9,7 @@ dotenv.config();
 const corsOptions = {
   origin: [
     "http://localhost:5173",
+    "https://accredian-frontend-task-drab.vercel.app/",
   ],
   credentials: true, //access-control-allow-credentials:true
 };
